@@ -46,10 +46,10 @@ src
 | | | \_variables.scss
 ```
 
-5. importa il file `general.scss` in `App.vue`. <br>
+5. Importa il file `general.scss` in `App.vue`. <br>
    Dovrai usare la direttiva `@use` e il tag `<style>` non dovrà avere l'attributo `scoped`.
 
-6. importa i file parziali nel file `general.scss`. <br>
+6. Importa i file parziali nel file `general.scss`. <br>
    Dovrai usare la direttiva `@use` ed aggiungere `as *`
 
-7. che Dio me la mandi buona!
+7. CHE DIO CE LA MANDI BUONA!
