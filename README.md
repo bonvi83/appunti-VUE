@@ -10,7 +10,17 @@
 npm create vite@latest .
 ```
 
-4. Pubblica la repo su GitHub con il nome dell'esercizio
+4. per installare 
+```bash
+npm install
+```
+
+5. per il live-server
+```bash
+npm run dev
+```
+
+6. Pubblica la repo su GitHub
 
 ## Installazione SASS
 
@@ -41,3 +51,5 @@ src
 
 6. importa i file parziali nel file `general.scss`. <br>
    Dovrai usare la direttiva `@use` ed aggiungere `as *`
+
+7. che Dio me la mandi buona!
