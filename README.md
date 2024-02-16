@@ -1,4 +1,4 @@
-# VITE + VUE
+# VITE + VUE + tutto il cucuzzaro
 
 ## Creazione di un nuovo progetto
 
@@ -10,12 +10,12 @@
 npm create vite@latest .
 ```
 
-4. per installare 
+4. Per installare 
 ```bash
 npm install
 ```
 
-5. per il live-server
+5. Per il live-server
 ```bash
 npm run dev
 ```
@@ -52,4 +52,18 @@ src
 6. Importa i file parziali nel file `general.scss`. <br>
    Dovrai usare la direttiva `@use` ed aggiungere `as *`
 
-7. CHE DIO CE LA MANDI BUONA!
+
+## Installazione Bootstrap
+
+1. Per installare
+```bash
+npm i --save bootstrap @popperjs/core
+```
+2. Nel file nel general.scss @import "bootstrap/scss/bootstrap" (in app.vue lo abbiamo già linkato)
+3. Nel main.js (per la logica di bootstrap) import * as bootstrap from "bootstrap"
+
+
+
+
+
+### CHE DIO CE LA MANDI BUONA!
