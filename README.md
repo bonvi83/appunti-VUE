@@ -62,7 +62,20 @@ npm i --save bootstrap @popperjs/core
 2. Nel file nel general.scss @import "bootstrap/scss/bootstrap" (in app.vue lo abbiamo già linkato)
 3. Nel main.js (per la logica di bootstrap) import * as bootstrap from "bootstrap"
 
+## Installazione FontAwesome
+Da guardare su documentazione...
 
+## Installazione json-server
+1. Per installare
+```bash
+npm install json-server
+```
+
+## Installazione Axios
+1. Per installare
+```bash
+npm i axios
+```
 
 
 
